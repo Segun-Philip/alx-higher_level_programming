@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 str = "Holborton School"
 times_3 = str * 3
-print(f'{times_3}\n{str[:9]}\n')
+concat = str[:9]
+print('{}\n{}'.format(times_3, concat))
